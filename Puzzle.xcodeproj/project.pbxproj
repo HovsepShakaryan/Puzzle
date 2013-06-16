@@ -25,6 +25,7 @@
 		C09B66D7175A7F6F009B528C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09B66D6175A7F6F009B528C /* ViewController.m */; };
 		C09B66DA175A7F8A009B528C /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */; };
 		C09B66DB175A7F8A009B528C /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */; };
+		CEDE193A176E65350082C748 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDE1939176E65350082C748 /* Settings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,8 @@
 		C09B66D6175A7F6F009B528C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C09B66D8175A7F8A009B528C /* ViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPad.xib; sourceTree = "<group>"; };
 		C09B66D9175A7F8A009B528C /* ViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController_iPhone.xib; sourceTree = "<group>"; };
+		CEDE1938176E65350082C748 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Puzzle/View/Settings.h; sourceTree = "<group>"; };
+		CEDE1939176E65350082C748 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Puzzle/View/Settings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				1440EA841758F7870048CA3C /* AppDelegate.m */,
 				1440EA9C1758F82A0048CA3C /* Controller.h */,
 				1440EA9D1758F82A0048CA3C /* Controller.m */,
+				CEDE193B176E65B30082C748 /* Settings */,
 				1440EA7B1758F7870048CA3C /* Supporting Files */,
 			);
 			path = Puzzle;
@@ -170,6 +174,16 @@
 				C09B66D3175A7F48009B528C /* Coord.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		CEDE193B176E65B30082C748 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE1938176E65350082C748 /* Settings.h */,
+				CEDE1939176E65350082C748 /* Settings.m */,
+			);
+			name = Settings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +262,7 @@
 				1440EAAB1758FF6B0048CA3C /* BoardView.m in Sources */,
 				C09B66D4175A7F48009B528C /* Coord.m in Sources */,
 				C09B66D7175A7F6F009B528C /* ViewController.m in Sources */,
+				CEDE193A176E65350082C748 /* Settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
